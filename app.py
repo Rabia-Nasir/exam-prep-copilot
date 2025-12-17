@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 genai.configure(api_key="AIzaSyCDoCNQpIBEbnH5tfy_FjL6DvNaJpd75NI")
 
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-3-pro-preview")
 
 st.title("📘 ExamPrep Copilot")
 
